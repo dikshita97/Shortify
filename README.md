@@ -6,11 +6,6 @@
 
 - [Introduction](#introduction)
 - [Features](#features)
-- [Requirements](#requirements)
-- [Documentation and Usage](#documentation-and-usage)
-- [Project Structure, Modifications and Best Practices](#project-structure-modifications-and-best-practices)
-    - [Creating new API routes](#creating-new-api-routes)
-    - [FastAPI Best Practices](#fastapi-best-practices)
 - [Stack](#stack)
 
 ## Introduction
@@ -36,19 +31,6 @@ OAuth2 JWT authentication.
 - Correlation ID middleware for logging and tracing requests across services.
 - Class-based API endpoints for better code organization and reducing duplication.
 - Fully type annotated code for better IDE support and code quality.
-
-## Requirements
-
-Manual installation:
-
-- Python 3.8 or higher.
-- [Poetry] for dependency management.
-- Up and running [MongoDB] instance (locally or remotely).
-
-Using Docker:
-
-- [Docker]
-- [Docker-Compose]
 
 ## Stack
 
